@@ -43,10 +43,9 @@ public class App {
         System.out.println("Posti prenotati: " + evento.getNumeroPostiPrenotati());
         System.out.println("Posti disponibili: " + (evento.getNumeroPostiTotali() - evento.getNumeroPostiPrenotati()));
 
-        Concerto concerto = new Concerto(titolo, data, numeroPostiTotali, null, disdette);
-        concerto.toString();
         scanner.close();
 
+        System.out.println(evento.toString());
         
     }
 }
