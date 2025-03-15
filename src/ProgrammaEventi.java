@@ -12,6 +12,7 @@ public class ProgrammaEventi extends Evento {
         super(titolo, data, numeroPostiTotali);
         this.titoloProgrammaEventi = titolo;
         this.eventi = new ArrayList<>();
+       
     }
     
     // Aggiunge l'evento 
@@ -31,5 +32,6 @@ public class ProgrammaEventi extends Evento {
         eventi.clear();
     }
 
+   
    
 }
